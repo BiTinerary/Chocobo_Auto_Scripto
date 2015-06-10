@@ -7,7 +7,7 @@ Set fso = CreateObject("Scripting.FileSystemObject")
 GetTheParent = fso.GetParentFolderName(Wscript.ScriptFullName)
 
 Set WshShell = WScript.CreateObject ("WScript.Shell")
-WshShell.Run GetTheParent & ("\chocoinstall.bat") 
+WshShell.Run GetTheParent & ("\ChocolateySublime.bat") 
 WScript.Sleep 500
 
 REM the above script will be run with admin privilages. end point.
